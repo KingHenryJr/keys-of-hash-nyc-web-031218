@@ -4,7 +4,9 @@ class Hash
     
     self.each do |key, value|
       arguments.each do |argument_all|
-    end 
-    
+      
+      
+      end 
+    end
   end
 end
