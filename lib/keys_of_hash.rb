@@ -1,15 +1,15 @@
 class Hash
-  array = []
+  ans = []
   def keys_of(*arguments)
     
     
     self.each do |key, value|
       arguments.each do |argument_all|
         if argument_all = value
-        array.push(value)
+        ans.push(value)
         end 
       end
     end
-  return array
+  return ans
   end
 end
