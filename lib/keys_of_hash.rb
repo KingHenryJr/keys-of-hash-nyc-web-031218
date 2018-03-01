@@ -1,8 +1,6 @@
 class Hash
-  ans = []
   def keys_of(*arguments)
-    
-    
+    ans = []
     self.each do |key, value|
       arguments.each do |argument_all|
         if argument_all = value
