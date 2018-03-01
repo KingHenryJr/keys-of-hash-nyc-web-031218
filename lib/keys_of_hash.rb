@@ -10,6 +10,6 @@ class Hash
         end 
       end
     end
-  end
   return array
+  end
 end
