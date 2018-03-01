@@ -7,10 +7,9 @@ class Hash
       arguments.each do |argument_all|
         if argument_all = value
         array.push(value)
-      end 
+        end 
+      end
     end
   end
-
   return array
-end
 end
