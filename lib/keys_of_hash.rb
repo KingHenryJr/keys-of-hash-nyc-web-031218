@@ -1,6 +1,7 @@
 class Hash
+  array = []
   def keys_of(*arguments)
-    array = []
+    
     
     self.each do |key, value|
       arguments.each do |argument_all|
@@ -9,4 +10,6 @@ class Hash
       end 
     end
   end
+
+  return array
 end
