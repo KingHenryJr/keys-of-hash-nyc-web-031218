@@ -7,7 +7,7 @@ class Hash
           ans << value
         end 
       end
+    return ans
     end
-  return ans
   end
 end
