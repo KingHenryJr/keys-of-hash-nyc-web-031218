@@ -8,6 +8,6 @@ class Hash
         end 
       end
     end
-  return ans
+  ans
   end
 end
