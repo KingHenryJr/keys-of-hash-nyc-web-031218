@@ -3,7 +3,8 @@ class Hash
     array = []
     
     self.each do |key, value|
-      arguments.each do ||
+      arguments.each do |argument_all|
+        if 
     
   end
 end
