@@ -2,7 +2,7 @@ class Hash
   def keys_of(*arguments)
     array = []
     
-    self 
+    self.each do ||
     
   end
 end
